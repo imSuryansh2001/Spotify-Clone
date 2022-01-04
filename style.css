@@ -1,0 +1,335 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* navbar */
+.navBar {
+  background-color: black;
+}
+
+.theBrand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.theBrand:hover {
+  color: white;
+}
+
+.bi-spotify {
+  font-size: 2.5rem;
+  margin-left: 8rem;
+}
+
+.bi-spotify:hover {
+  color: white;
+}
+
+.s {
+  color: white;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.s:hover {
+  color: #1ed760;
+}
+
+.d {
+  color: white;
+  font-weight: bold;
+  border-right: 0.1rem solid white;
+}
+
+.d:hover {
+  color: #1ed760;
+}
+
+.su {
+  color: gainsboro;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.su:hover {
+  color: #1ed760;
+}
+
+.li {
+  color: gainsboro;
+  font-weight: bold;
+  margin-right: 10rem;
+}
+
+.li:hover {
+  color: #1ed760;
+}
+
+.bi-list {
+  color: white;
+  font-size: 2rem;
+}
+
+/* for phone */
+@media (max-width: 576px) {
+  .bi-spotify {
+    margin-left: 0rem;
+  }
+}
+
+/* for tablet*/
+@media (max-width: 768px) {
+  .bi-spotify {
+    margin-left: 0rem;
+  }
+}
+
+/*--------- navbar completed ---------*/
+
+.heading {
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px black;
+}
+
+.background-image {
+  background-image: url("purple.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heading-box {
+  margin-top: 8%;
+}
+
+.heading-button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  box-shadow: 10px 10px 10px #00000085;
+}
+
+.heading-button:hover {
+  color: black;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/* background ends */
+
+.why-spotify {
+  color: black;
+  margin-top: 5rem;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.bi-play-circle-fill {
+  font-size: 5rem;
+  border: 0.1rem solid white;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 5px 8px 10px #000000d0;
+  background-image: linear-gradient(to bottom,
+      rgb(163, 10, 177),
+      rgb(56, 5, 175));
+}
+
+.bi-music-note-list {
+  font-size: 5rem;
+  border: 0.1rem solid white;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 5px 8px 10px #000000d0;
+  background-image: linear-gradient(to bottom,
+      rgb(163, 10, 177),
+      rgb(56, 5, 175));
+}
+
+.bi-heart-fill {
+  font-size: 5rem;
+  border: 0.1rem solid white;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 5px 8px 10px #000000d0;
+  background-image: linear-gradient(to bottom,
+      rgb(163, 10, 177),
+      rgb(56, 5, 175));
+}
+
+.bi-lightning-charge-fill {
+  font-size: 5rem;
+  border: 0.1rem solid white;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 5px 8px 10px #000000d0;
+  background-image: linear-gradient(to bottom,
+      rgb(163, 10, 177),
+      rgb(56, 5, 175));
+}
+
+h5 {
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-family: sans-serif;
+}
+
+/* card section ends */
+
+.spotify-phone-image {
+  background-color: rgb(145, 244, 186);
+}
+
+/* spotify in phone */
+
+.free {
+  color: white;
+  font-weight: bolder;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+.text-background {
+  background-image: linear-gradient(to bottom,
+      rgb(173, 13, 179),
+      rgb(55, 9, 161));
+}
+
+/* no credit card section */
+
+.ques {
+  color: black;
+}
+
+.ques:hover {
+  border-bottom: 0.1rem solid black;
+}
+
+.create {
+  color: rgb(10, 151, 57);
+  font-weight: bold;
+}
+
+.q {
+  background-color: gainsboro;
+  color: white;
+}
+
+/* question section ends*/
+
+.premium {
+  margin-top: 5rem;
+}
+
+/* premium image */
+
+.ready {
+  color: blue;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+
+.ready-background-image {
+  background-image: url("gradient.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 5rem;
+}
+
+/* ready lets play */
+
+.fa-spotify {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.contact-box {
+  background-color: rgb(0, 0, 0);
+}
+
+.links {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.links:hover {
+  color: rgb(10, 151, 57);
+}
+
+.s-h {
+  color: gainsboro;
+  font-weight: bold;
+}
+
+.bi-instagram {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.bi-instagram:hover {
+  color: rgb(6, 204, 72);
+}
+
+.bi-twitter {
+  color: white;
+
+  font-size: 1.7rem;
+}
+
+.bi-twitter:hover {
+  color: rgb(6, 204, 72);
+}
+
+.bi-facebook {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.bi-facebook:hover {
+  color: rgb(6, 204, 72);
+}
+
+/* contact links */
+
+.last-section {
+  background-color: rgb(0, 0, 0);
+}
+
+span {
+  color: gainsboro;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span:hover {
+  color: rgb(6, 204, 72);
+}
+
+h6 {
+  color: gainsboro;
+}
+
+.fa-globe-americas {
+  color: gainsboro;
+}
+
+.fa-copyright {
+  color: gainsboro;
+}
